@@ -1,0 +1,138 @@
+/*
+Theme Name:   	Foxtail
+Theme URI:    	http://webmelinh.com/
+Author:       	Web Me Linh
+Author URI:		http://webmelinh.com/
+Description:  	Foxtail is the perfect theme for your next WooCommerce project
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    foxtail
+Tags:         	foxtail, website, web me linh, thiet ke web, thiet ke website
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.responsive .fb_iframe_widget, .responsive .fb_iframe_widget span, .responsive .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+.post-content .kk-star-ratings {
+    padding-top: 10px;
+}
+.facebook-comment {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.widget_wpstatistics_widget ul {
+    list-style: none;
+    padding: 0
+}
+.widget_wpstatistics_widget ul li {
+    padding: 5px 0;
+    border-bottom: dotted 1px #ddd
+}
+/******************** style of post content *********************/
+.alignnone {
+	margin: 5px 20px 20px 0px;
+}
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+.alignleft {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.wp-caption {
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.main-product #content .term-description { text-align: justify }
+.main-product #content .term-description h2 { font-size: 22px; margin-bottom: 15px }
+.main-product #content .term-description h3 { font-size: 18px; margin-bottom: 15px }
+.main-product #content .term-description h4, .main-product #content .term-description h5, .main-product #content .term-description h6 { font-size: 16px }
+
+.woocommerce-message {
+    margin-bottom: 30px;
+    background: #ffef64;
+    border: solid 1px #9c0100;
+    padding: 12px 6px;
+    border-radius: 1px;
+}
+.woocommerce-message a {
+    border-radius: 1px;
+    margin-right: 10px;
+}
